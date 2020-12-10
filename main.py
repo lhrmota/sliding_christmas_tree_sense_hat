@@ -36,23 +36,23 @@ while True:
 	O, G, Y, G, G, G, G, O,
 	O, O, G, G, G, G, O, O,
 	O, G, G, G, Y, G, G, O,
-	G, G, G, G, G, G, G, G,
+	G, G, U, G, G, G, G, G,
 	O, O, O, B, B, O, O, O,
 	O, O, O, B, B, O, O, O
 	]
-	
+
 	for i in range(1,9):
 	  partial_tree=move_image_left(xmas_tree,i)
 	  sense.set_pixels(partial_tree)
 	  sleep(.2)
-	  
+
 	sleep(2)
-	
+
 	for i in range(8):
 	  clear_one_column_from_left(xmas_tree)
 	  sense.set_pixels(xmas_tree)
 	  sleep(.2)
-	  
+ 
 	xmas_tree = [
 	O, O, O, U, U, O, O, O,
 	O, O, Y, U, U, U, O, O,
@@ -63,60 +63,60 @@ while True:
 	O, O, O, B, B, O, O, O,
 	O, O, O, B, B, O, O, O
 	]
-	
+
 	for i in range(1,9):
 	  partial_tree=move_image_left(xmas_tree,i)
 	  sense.set_pixels(partial_tree)
 	  sleep(.2)
-	  
+
 	sleep(2)
-	
+
 	for i in range(8):
 	  clear_one_column_from_left(xmas_tree)
 	  sense.set_pixels(xmas_tree)
 	  sleep(.2)
-	  
+
 	xmas_tree = [
 	O, O, O, W, W, O, O, O,
 	O, O, W, W, Y, W, O, O,
-	O, W, B, W, W, W, W, O,
+	O, W, U, W, W, W, W, O,
 	O, O, W, W, W, W, O, O,
 	O, W, W, Y, W, W, W, O,
-	W, W, W, W, W, Y, W, W,
+	W, W, W, W, W, U, W, W,
 	O, O, O, B, B, O, O, O,
 	O, O, O, B, B, O, O, O
 	]
-	
+
 	for i in range(1,9):
 	  partial_tree=move_image_left(xmas_tree,i)
 	  sense.set_pixels(partial_tree)
 	  sleep(.2)
-	  
+
 	sleep(2)
-	
+
 	for i in range(8):
 	  clear_one_column_from_left(xmas_tree)
 	  sense.set_pixels(xmas_tree)
 	  sleep(.2)
-	  
+
 	xmas_tree = [
 	O, O, O, R, R, O, O, O,
-	O, O, R, Y, R, R, O, O,
+	O, O, R, U, R, R, O, O,
 	O, R, R, R, R, R, R, O,
 	O, O, R, R, Y, R, O, O,
-	O, R, B, R, R, R, R, O,
+	O, R, U, R, R, R, R, O,
 	R, R, R, R, Y, R, R, R,
 	O, O, O, B, B, O, O, O,
 	O, O, O, B, B, O, O, O
 	]
-	
+
 	for i in range(1,9):
 	  partial_tree=move_image_left(xmas_tree,i)
 	  sense.set_pixels(partial_tree)
 	  sleep(.2)
-	  
+
 	sleep(2)
-	
+
 	for i in range(8):
 	  clear_one_column_from_left(xmas_tree)
 	  sense.set_pixels(xmas_tree)
